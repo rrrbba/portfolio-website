@@ -3398,9 +3398,14 @@ input, select, textarea {
 			transform: translateY(0);
 			opacity: 1;
 			margin: 0 0 1.3em 0;
+			
+		}
+		.logo .profile{
+			border-radius: 10px;
+			margin-left: 65%;
 		}
 
-			#banner .logo .icon {
+			/* #banner .logo .icon {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
@@ -3410,7 +3415,7 @@ input, select, textarea {
 				line-height: 2.25em;
 				text-align: center;
 				width: 2.25em;
-			}
+			} */
 
 		#banner h2 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
